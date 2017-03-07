@@ -9,6 +9,8 @@ Front-end basics and most useful tips for .NET developers
    * box-sizing
    * z-index
    * CSS3 selectors
+   * flexbox
+   * Bootstrap
 4. jQuery
    * $ function
    * multiple selector
