@@ -14,7 +14,7 @@ Front-end basics and most useful tips for .NET developers
    * combining CSS selectors, [DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself "Don't repeat yourself")
    * CSS3 selectors
    * flexbox
-   * Bootstrap
+   * [Bootstrap](http://getbootstrap.com) - the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web
 4. jQuery
    * $ function
    * multiple selector
