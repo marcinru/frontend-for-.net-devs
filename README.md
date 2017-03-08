@@ -5,6 +5,9 @@ Front-end basics and most useful tips for .NET developers
    * Chrome DevTools
 2. HTML
    * **table** vs **div** vs **semantic markup**
+   * forms
+   * Layout
+   * [HTML 5 Outliner](https://gsnedders.html5.org/outliner/)
 3. CSS
    * box-sizing
    * z-index
