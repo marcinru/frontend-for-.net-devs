@@ -21,6 +21,7 @@ Front-end basics and most useful tips for .NET developers
    * $.get & $.post
    * promise
 5. JavaScript
+   * [Should I learn Javascript?](http://shouldilearnjavascript.com)
    * design patterns
 6. ECMAScript 2015
    * arrow functions
