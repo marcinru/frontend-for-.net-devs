@@ -3,6 +3,7 @@ Front-end basics and most useful tips for .NET developers
 
 1. Introduction
    * [Chrome DevTools](https://developer.chrome.com/devtools)
+   * What [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) or text editor should I choose?
 2. HTML
    * **table** vs **div** vs **semantic markup**
    * forms
