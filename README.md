@@ -6,10 +6,8 @@ Front-end basics and most useful tips for .NET developers
    * What [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) or text editor should I choose?
 2. HTML
    * Why quality of HTML code is important
-   * **table** vs **div** vs **semantic markup**
-   * forms
-   * Layout
-   * [HTML 5 Outliner](https://gsnedders.html5.org/outliner/)
+   * [Holy Grail Layout](https://en.wikipedia.org/wiki/Holy_Grail_(web_design))
+   * Forms HTML
 3. CSS
    * box-sizing
    * z-index
