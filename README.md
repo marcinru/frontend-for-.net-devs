@@ -4,12 +4,14 @@ Front-end basics and most useful tips for .NET developers
 1. Introduction
    * [Chrome DevTools](https://developer.chrome.com/devtools)
    * What [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) or text editor should I choose?
+   * Recommended extensions / plugins / packages
 2. HTML
    * Why quality of HTML code is important
    * [Holy Grail Layout](https://en.wikipedia.org/wiki/Holy_Grail_(web_design))
    * Forms HTML
 3. CSS
    * box-sizing
+   * the clearfix hack
    * z-index
    * combining CSS selectors, [DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself "Don't repeat yourself")
    * CSS3 selectors
