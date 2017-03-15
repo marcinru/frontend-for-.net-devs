@@ -1,0 +1,15 @@
+h1,
+.sidebar,
+.header,
+.footer {
+  text-transform: uppercase;
+}
+
+.header,
+.footer {
+  background: lightblue;
+}
+
+.sidebar {
+  background-color: rgba(137, 17, 159, 0.63);
+}

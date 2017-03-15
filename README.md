@@ -21,10 +21,11 @@ Front-end basics and most useful tips for .NET developers
    * $ function
    * multiple selector
    * $.get & $.post
-   * promise
+   * promises
 5. JavaScript
    * [Should I learn Javascript?](http://shouldilearnjavascript.com)
    * design patterns
+   * live coding Particles app
 6. ECMAScript 2015
    * arrow functions
    * spread operator
@@ -32,3 +33,5 @@ Front-end basics and most useful tips for .NET developers
 7. Unit testing
    * Setup
    * TDD
+8. AngularJS introduction
+   * live coding simple app
