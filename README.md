@@ -8,7 +8,7 @@ Front-end basics and most useful tips for .NET developers
 2. HTML
    * Why quality of HTML code is important
    * [Holy Grail Layout](https://en.wikipedia.org/wiki/Holy_Grail_(web_design))
-   * Forms HTML
+   * Forms
 3. CSS
    * box-sizing
    * the clearfix hack
@@ -24,14 +24,14 @@ Front-end basics and most useful tips for .NET developers
    * promises
 5. JavaScript
    * [Should I learn Javascript?](http://shouldilearnjavascript.com)
-   * design patterns
-   * live coding Particles app
+   * Design patterns
+   * Live coding Particles app
 6. ECMAScript 2015
-   * arrow functions
-   * spread operator
+   * Arrow functions
+   * Spread operator
    * JavaScript classes
 7. Unit testing
    * Setup
    * TDD
 8. AngularJS introduction
-   * live coding simple app
+   * Live coding simple app
