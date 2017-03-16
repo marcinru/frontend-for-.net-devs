@@ -1,5 +1,5 @@
-# Front-end for .NET developers
-Front-end basics and most useful tips for .NET developers
+# Front-end not only for .NET developers
+Front-end basics and most useful tips for .NET developers, testers and everyone interested in web technologies.
 
 1. Introduction
    * [Chrome DevTools](https://developer.chrome.com/devtools)
