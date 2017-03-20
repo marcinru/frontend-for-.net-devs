@@ -1,0 +1,50 @@
+/* general styles */
+* {
+    text-transform: uppercase;
+}
+
+.header,
+.footer,
+.HolyGrail-nav,
+.HolyGrail-content,
+.HolyGrail-ads {
+    padding: 10px;
+}
+
+/* colors */
+.header,
+.footer {
+    background: royalblue;
+    color: white;
+}
+
+.HolyGrail-content {
+    background: yellowgreen;
+}
+
+.HolyGrail-nav,
+.HolyGrail-ads {
+    background: #c9c;
+}
+
+/* flexbox */
+.HolyGrail {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+.HolyGrail-body {
+    display: flex;
+    flex: 1;
+}
+
+.HolyGrail-content {
+    flex: auto;
+}
+
+.HolyGrail-nav,
+.HolyGrail-ads {
+    width: 20%
+}
