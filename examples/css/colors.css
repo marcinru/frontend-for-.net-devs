@@ -1,0 +1,15 @@
+/* colors */
+.header,
+.footer {
+    background: royalblue;
+    color: white;
+}
+
+.HolyGrail-content {
+    background: yellowgreen;
+}
+
+.HolyGrail-nav,
+.HolyGrail-ads {
+    background: #c9c;
+}
