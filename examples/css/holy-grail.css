@@ -32,3 +32,14 @@
 .HolyGrail-ads {
     width: 20%
 }
+
+/* responsive */
+@media (max-width: 500px) {
+    .HolyGrail-body {
+        flex-direction: column;
+    }
+    .HolyGrail-nav,
+    .HolyGrail-ads {
+        width: 100%
+    }
+}
