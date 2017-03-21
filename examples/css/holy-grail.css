@@ -1,17 +1,3 @@
-/* general styles */
-* {
-    text-transform: uppercase;
-}
-
-.header,
-.footer,
-.HolyGrail-nav,
-.HolyGrail-content,
-.HolyGrail-ads {
-    padding: 10px;
-}
-
-/* flexbox */
 .HolyGrail {
     display: flex;
     min-height: 100vh;
@@ -30,7 +16,7 @@
 
 .HolyGrail-nav,
 .HolyGrail-ads {
-    width: 20%
+    width: 25%;
 }
 
 /* responsive */
@@ -40,6 +26,6 @@
     }
     .HolyGrail-nav,
     .HolyGrail-ads {
-        width: 100%
+        width: 100%;
     }
 }

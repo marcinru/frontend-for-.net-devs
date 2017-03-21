@@ -1,4 +1,19 @@
-/* colors */
+* {
+    text-transform: uppercase;
+}
+
+ul, ol {
+    padding: 0 0 0 20px;
+}
+
+.header,
+.footer,
+.HolyGrail-nav,
+.HolyGrail-content,
+.HolyGrail-ads {
+    padding: 20px;
+}
+
 .header,
 .footer {
     background: royalblue;
