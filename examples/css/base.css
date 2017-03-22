@@ -1,12 +1,12 @@
-* {
-    text-transform: uppercase;
-}
-
-.HolyGrail {
+body, h2 {
     margin: 0;
 }
 
-ul, ol {
+h2 {
+    text-transform: uppercase;
+}
+
+ul {
     padding: 0 0 0 20px;
 }
 
