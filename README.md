@@ -8,7 +8,6 @@ Front-end basics and most useful tips for .NET developers, testers and everyone 
 2. HTML
    * Why quality of HTML code is important
    * [Holy Grail Layout](https://en.wikipedia.org/wiki/Holy_Grail_(web_design))
-   * Forms
 3. CSS
    * box-sizing
    * the clearfix hack
