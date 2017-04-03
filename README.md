@@ -13,7 +13,7 @@ Front-end basics and most useful tips for .NET developers, testers and everyone 
    * the clearfix hack
    * z-index
    * combining CSS selectors, [DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself "Don't repeat yourself")
-   * CSS3 selectors
+   * [CSS3 selectors](http://caniuse.com/#feat=css-sel3)
    * flexbox
    * [Bootstrap](http://getbootstrap.com) - the most popular CSS framework
 4. jQuery
