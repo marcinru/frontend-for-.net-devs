@@ -6,13 +6,12 @@ body, h2, p {
     background: yellowgreen;
     width: 50%;
     float: left;
-    padding: 20px 30px;
+    padding: 20px;
     box-sizing: border-box;
-    min-height: 160px;
 }
 
-.tile:nth-child(2),
-.tile:nth-child(3) {
+.tile:nth-of-type(2),
+.tile:nth-of-type(3) {
     background: green;
     color: white;
 }
