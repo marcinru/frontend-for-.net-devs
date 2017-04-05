@@ -2,6 +2,20 @@ body, h2, p {
     margin: 0;
 }
 
+main {
+    display: block;
+}
+
+.tiles {
+    background: green;
+}
+
+.tiles:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .tile {
     background: yellowgreen;
     width: 50%;
@@ -10,8 +24,8 @@ body, h2, p {
     box-sizing: border-box;
 }
 
-.tile:nth-of-type(2),
-.tile:nth-of-type(3) {
+.tile:nth-child(2),
+.tile:nth-child(3) {
     background: green;
     color: white;
 }
