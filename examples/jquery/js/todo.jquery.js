@@ -9,4 +9,10 @@ $(function () {
     let taskName = $('#task-name');
     console.log(taskName.val());
   })
+
+  function getUserName() {
+    const defaultUser = "Marcin";
+    let username = $('#username').val();
+    return username === "all" ? defaultUser : username;
+  }
 })
