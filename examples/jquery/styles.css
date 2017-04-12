@@ -1,0 +1,9 @@
+.list-group label {
+    font-weight: normal;
+    margin: 0;
+}
+
+.list-group input[type=checkbox] {
+    margin: 0 5px 2px 0;
+    vertical-align: middle;
+}
