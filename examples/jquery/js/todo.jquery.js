@@ -6,8 +6,12 @@ $(function () {
 
   $('#add-todo-form').submit(function (event) {
     event.preventDefault();
-    let taskName = $('#task-name');
-    console.log(taskName.val());
+    let taskName = $('#task-name').val(),
+        username = getUserName();
+    $('#tasks-list').append(`<li class="list-group-item">
+      <span class="badge">${username}</span>
+      <label><input type="checkbox">${taskName}</label>
+    </li>`);
   })
 
   function getUserName() {
