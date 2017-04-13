@@ -13,4 +13,4 @@ const API = {
     });
     return promise;
   }
-}
+};
