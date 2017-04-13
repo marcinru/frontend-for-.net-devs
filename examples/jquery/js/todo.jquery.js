@@ -37,8 +37,7 @@ $(function () {
     });
 
     function getUserName() {
-        const defaultUser = "Marcin";
         let username = $('#username').val();
-        return username === "all" ? defaultUser : username;
+        return username === "all" ? "Marcin" : username;
     }
 });
