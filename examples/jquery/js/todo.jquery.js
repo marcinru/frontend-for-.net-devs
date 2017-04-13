@@ -1,4 +1,13 @@
 $(function () {
+  $.get('api/tasks.json', function (data) {
+    let tasks = document.createDocumentFragment();
+      console.log(data);
+  });
+
+  $.get('api/users.json', function (data) {
+      console.log(data);
+  });
+
   $('#username').change(function () {
     let username = $(this).find('option:selected').text();
     $('#current-user').text(username);
