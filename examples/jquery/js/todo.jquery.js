@@ -12,6 +12,7 @@ $(function () {
       <span class="badge">${username}</span>
       <label><input type="checkbox">${taskName}</label>
     </li>`);
+    this.reset();
   })
 
   function getUserName() {
