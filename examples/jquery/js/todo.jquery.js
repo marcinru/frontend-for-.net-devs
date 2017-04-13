@@ -13,11 +13,15 @@ $(function () {
       <label><input type="checkbox">${taskName}</label>
     </li>`);
     this.reset();
-  })
+  });
+
+  $('#tasks-list').on('change', 'input[type=checkbox]', function () {
+    $(this).closest('.list-group-item').remove();
+  });
 
   function getUserName() {
     const defaultUser = "Marcin";
     let username = $('#username').val();
     return username === "all" ? defaultUser : username;
   }
-})
+});
