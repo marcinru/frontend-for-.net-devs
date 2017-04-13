@@ -1,15 +1,23 @@
 $(function() {
     const $tasksList = $('#tasks-list');
 
-    $.when(API.getUsers(), API.getTasks()).then(function (users, tasks) {
-      let taskList = document.createDocumentFragment();
-      tasks.forEach(function(task) {
-          $(taskList).append(`<li class="list-group-item">
-      <span class="badge">${task.userId}</span>
+    $tasksList.on('change', 'input[type=checkbox]', function() {
+        $(this).closest('.list-group-item').remove();
+    });
+
+    $.when(API.getUsers(), API.getTasks()).then(function(users, tasks) {
+        let taskList = document.createDocumentFragment(),
+            usersArray = [];
+        for (var i = 0; i < users.length; i++) {
+            usersArray[users[i].id] = users[i].name;
+        }
+        tasks.forEach(function(task) {
+            $(taskList).append(`<li class="list-group-item">
+      <span class="badge">${usersArray[task.userId]}</span>
       <label><input type="checkbox"> ${task.name}</label>
       </li>`);
-      });
-      $tasksList.append(taskList);
+        });
+        $tasksList.append(taskList);
     });
 
     $('#username').change(function() {
@@ -26,10 +34,6 @@ $(function() {
       <label><input type="checkbox"> ${taskName}</label>
     </li>`);
         this.reset();
-    });
-
-    $tasksList.on('change', 'input[type=checkbox]', function() {
-        $(this).closest('.list-group-item').remove();
     });
 
     function getUserName() {
