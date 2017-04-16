@@ -23,7 +23,7 @@ Front-end basics and most useful tips for .NET developers, testers and everyone 
    * promises
 5. JavaScript
    * [Should I learn Javascript?](http://shouldilearnjavascript.com)
-   * Design patterns
+   * [Vanilla JS](http://vanilla-js.com)
    * Live coding Particles app
 6. ECMAScript 2015
    * Arrow functions
