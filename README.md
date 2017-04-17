@@ -24,9 +24,10 @@ Front-end basics and most useful tips for .NET developers, testers and everyone 
 5. JavaScript
    * [Should I learn Javascript?](http://shouldilearnjavascript.com)
    * [Vanilla JS](http://vanilla-js.com)
-   * Live coding Particles app
+   * Live coding [Particles app](https://youtu.be/iedpl-T1lIo)
 6. ECMAScript 2015
    * Arrow functions
+   * Array helpers
    * Spread operator
    * JavaScript classes
 7. Unit testing
