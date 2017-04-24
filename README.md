@@ -22,9 +22,9 @@ Front-end basics and most useful tips for .NET developers, testers and everyone 
    * $.get & $.post
    * promises
 5. JavaScript
-   * [Should I learn Javascript?](http://shouldilearnjavascript.com)
+   * [Should I learn JavaScript?](http://shouldilearnjavascript.com) (not only jQuery!)
    * [Vanilla JS](http://vanilla-js.com)
-   * Live coding [Particles app](https://youtu.be/iedpl-T1lIo)
+   * Live coding [Particles app](https://youtu.be/iedpl-T1lIo) (canvas animation)
 6. ECMAScript 2015
    * Arrow functions
    * Array helpers
