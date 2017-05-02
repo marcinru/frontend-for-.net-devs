@@ -1,162 +1,179 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<title>Front-end for .NET developers</title>
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
-		<link rel="stylesheet" href="lib/css/zenburn.css"><!-- Theme used for syntax highlighting of code -->
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-					<pre><code>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Front-end for .NET developers</title>
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/black.css" id="theme">
+        <link rel="stylesheet" href="lib/css/zenburn.css"><!-- Theme used for syntax highlighting of code -->
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <pre><code>
    var event = {
        type: ["Presentation", "Live coding"],
        topic: "Front-end not only for .NET developers",
        speaker: "Marcin Rudzki (front-end wizard)"
    };
-					</code></pre>
-					<img src="img/westworld.gif" alt="Westworld" class="plain">
-				</section>
-				<section id="devToolsSection">
-					<h2>Chrome DevTools</h2>
-					<p>Best way for debugging frontend issues</p>
-					<img src="img/sidekick.jpg" alt="Batman and Robin">
-				</section>
-				<section>
-					<p style="margin: 0;">What IDE or text editor should I choose?</p>
-					<img src="img/editors.png" alt="IDE and text editors">
-				</section>
-				<section>
-					<h3>Recommended extensions / plugins</h3>
-					<ol>
-						<li>
-							<a href="http://emmet.io">Emmet — the essential toolkit for web-developers</a>
-						</li>
-						<li>
-							<a href="https://github.com/jas-chen/atom-live-server">Atom-live-server</a>
-							or Node.js <a href="https://www.npmjs.com/package/http-server">http-server</a>
-						</li>
-						<li>
-							<a href="https://github.com/Glavin001/atom-beautify">Atom-beautify</a>
-							or <code>Ctrl+K,Ctrl+D</code> in Visual Studio
-						</li>
-						<li>
-							<a href="https://atomlinter.github.io/">AtomLinter</a> /
-							<a href="https://github.com/CSSLint/csslint">CSSLint</a> /
-							<a href="http://eslint.org">ESLint</a>
-						</li>
-						<li>
-							<a href="https://github.com/thomaslindstrom/color-picker">
-								A Color Picker for Atom
-							</a>
-						</li>
-					</ol>
-				</section>
-				<section>
-					<h3>Why quality of HTML code is important</h3>
-					<p>Clean HTML code leads to clean CSS code. Clean CSS code leads to clean JavaScript code.</p>
-					<img src="img/path-to-the-dark-side.jpg" alt="Path to the dark side">
-				</section>
-				<section>
-					<h3>Holy Grail Layout</h3>
-					<img class="plain" width="600px" src="img/HolyGrail.svg" alt="Holy Grail Layout">
-				</section>
-				<section>
-					<pre><code>
+                    </code></pre>
+                    <img src="img/westworld.gif" alt="Westworld" class="plain">
+                </section>
+                <section id="devToolsSection">
+                    <h2>Chrome DevTools</h2>
+                    <p>Best way for debugging frontend issues</p>
+                    <img src="img/sidekick.jpg" alt="Batman and Robin">
+                </section>
+                <section>
+                    <p style="margin: 0;">What IDE or text editor should I choose?</p>
+                    <img src="img/editors.png" alt="IDE and text editors">
+                </section>
+                <section>
+                    <h3>Recommended extensions / plugins</h3>
+                    <ol>
+                        <li>
+                            <a href="http://emmet.io">Emmet — the essential toolkit for web-developers</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/jas-chen/atom-live-server">Atom-live-server</a>
+                            or Node.js <a href="https://www.npmjs.com/package/http-server">http-server</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Glavin001/atom-beautify">Atom-beautify</a>
+                            or <code>Ctrl+K,Ctrl+D</code> in Visual Studio
+                        </li>
+                        <li>
+                            <a href="https://atomlinter.github.io/">AtomLinter</a> /
+                            <a href="https://github.com/CSSLint/csslint">CSSLint</a> /
+                            <a href="http://eslint.org">ESLint</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/thomaslindstrom/color-picker">
+                                A Color Picker for Atom
+                            </a>
+                        </li>
+                    </ol>
+                </section>
+                <section>
+                    <h3>Why quality of HTML code is important</h3>
+                    <p>Clean HTML code leads to clean CSS code. Clean CSS code leads to clean JavaScript code.</p>
+                    <img src="img/path-to-the-dark-side.jpg" alt="Path to the dark side">
+                </section>
+                <section>
+                    <h3>Holy Grail Layout</h3>
+                    <img class="plain" width="600px" src="img/HolyGrail.svg" alt="Holy Grail Layout">
+                </section>
+                <section>
+                    <pre><code>
    /* Work on layout */
    #spn-academy2 .css-master-class {
        position: absolute;
        right: 100%;
    }
-					</code></pre>
-					<img src="img/Layout.gif" alt="Layout" class="plain">
-				</section>
-				<section>
-					<h3>Tiles Layout</h3>
-					<img class="plain" src="img/tilesLayout.png" alt="Tiles Layout">
-				</section>
-				<section>
-					<h3>Styling agenda</h3>
-					<img class="plain" src="img/agenda.png" alt="Agenda">
-				</section>
-				<section>
-					<h3>CSS framework</h3>
-					<img class="plain" src="img/bootstrap.jpg" alt="Bootstrap">
-				</section>
-				<section>
-					<h3>Login page</h3>
-					<img class="plain" src="img/Login.png" alt="Login page">
-				</section>
-				<section>
-					<pre><code>    /**
+                    </code></pre>
+                    <img src="img/Layout.gif" alt="Layout" class="plain">
+                </section>
+                <section>
+                    <h3>Tiles Layout</h3>
+                    <img class="plain" src="img/tilesLayout.png" alt="Tiles Layout">
+                </section>
+                <section>
+                    <h3>Styling agenda</h3>
+                    <img class="plain" src="img/agenda.png" alt="Agenda">
+                </section>
+                <section>
+                    <h3>CSS framework</h3>
+                    <img class="plain" src="img/bootstrap.jpg" alt="Bootstrap">
+                </section>
+                <section>
+                    <h3>Login page</h3>
+                    <img class="plain" src="img/Login.png" alt="Login page">
+                </section>
+                <section>
+                    <pre><code>    /**
      * SPN Academy #3
      * @author Marcin Rudzki
      */
     (function $uper(name) {
         return name + " is super!";
     })("jQuery"); // IIFE
-					</code></pre>
-					<img src="img/jQuery.jpg" alt="jQuery" class="plain">
-				</section>
-				<section>
-					<h3>What is $ in JavaScript?</h3>
-					<pre><code>
+                    </code></pre>
+                    <img src="img/jQuery.jpg" alt="jQuery" class="plain">
+                </section>
+                <section>
+                    <h3>What is $ in JavaScript?</h3>
+                    <pre><code>
     let $ = 5; ++$; // ?
     $ = (a, b) => a + b; typeof $; // ?
     $(5, 10); // ?
-					</code></pre>
-					<img class="plain" src="img/review.gif" alt="?">
-				</section>
-				<section>
-					<h3>TODO app in jQuery</h3>
-					<img class="plain" src="img/todo.png" alt="TODO">
-				</section>
-				<section>
-					<pre><code>
+                    </code></pre>
+                    <img class="plain" src="img/review.gif" alt="?">
+                </section>
+                <section>
+                    <h3>TODO app in jQuery</h3>
+                    <img class="plain" src="img/todo.png" alt="TODO">
+                </section>
+                <section>
+                    <pre><code>
     // SPN Academy #4
     document.querySelectorAll(".JavaScript");
-					</code></pre>
-					<img class="plain" src="img/javascript.jpg" alt="JavaScript" width="600px">
-				</section>
-				<section>
-					<p>
-						<a href="http://shouldilearnjavascript.com">Should I learn Javascript?</a>
-					</p>
-					<img src="img/JavaScript-theGoodParts.jpg" alt="JavaScript: The Good Parts">
-				</section>
-				<section>
-					<p>
-						<a href="http://vanilla-js.com">Vanilla JS</a>
-					</p>
-					<img src="img/vanilla.jpg" alt="Vanilla JS">
-				</section>
-				<section>
-					<p>
-						<a href="https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arc">CanvasRenderingContext2D.arc()</a>
-					</p>
-					<video src="video/particles.mp4" autoplay loop controls>Particles</video>
-				</section>
-			</div>
-		</div>
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
+                    </code></pre>
+                    <img class="plain" src="img/javascript.jpg" alt="JavaScript" width="600px">
+                </section>
+                <section>
+                    <p>
+                        <a href="http://shouldilearnjavascript.com">Should I learn Javascript?</a>
+                    </p>
+                    <img src="img/JavaScript-theGoodParts.jpg" alt="JavaScript: The Good Parts">
+                </section>
+                <section>
+                    <p>
+                        <a href="http://vanilla-js.com">Vanilla JS</a>
+                    </p>
+                    <img src="img/vanilla.jpg" alt="Vanilla JS">
+                </section>
+                <section>
+                    <p>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arc">CanvasRenderingContext2D.arc()</a>
+                    </p>
+                    <video src="video/particles.mp4" autoplay loop controls>Particles</video>
+                </section>
+                <section>
+                    <pre><code>    describe('spnAcademy.getTopic(number)', function() {
+        it('returns "TDD" for #5', function() {
+            expect(spnAcademy.getTopic(5)).toBe("TDD");
+        });
+    });</code></pre>
+                    <img class="plain" src="img/redPill.png" alt="Unit Testing" width="650px">
+                </section>
+                <section>
+                    <h2>Why TDD?</h2>
+                    <p style="text-align: left;">
+                        <img class="plain" src="img/cleanCode.jpg" alt="Clean Code" style="float: left; width: 24%;
+                        margin-right: 5%;">	&ldquo;Unit tests should be written just before the production code that makes them pass.
+                        If you write tests after the production code, then you may find the production code to be
+                        hard to test.&rdquo; &ndash; Robert C. Martin
+                    </p>
+                </section>
+            </div>
+        </div>
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+        <script>
+            // More info https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                history: true,
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+                // More info https://github.com/hakimel/reveal.js#dependencies
+                dependencies: [
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+                ]
+            });
+        </script>
+    </body>
 </html>

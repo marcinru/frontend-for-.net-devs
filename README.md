@@ -14,8 +14,6 @@ Front-end basics and most useful tips for .NET developers, testers and everyone 
    * [CSS3 selectors](http://caniuse.com/#feat=css-sel3)
    * combining CSS selectors, [DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself "Don't repeat yourself")
    * [Bootstrap](http://getbootstrap.com) - the most popular CSS framework
-   * z-index
-   * flexbox ?
 4. jQuery
    * $ function
    * multiple selector
@@ -24,14 +22,10 @@ Front-end basics and most useful tips for .NET developers, testers and everyone 
 5. JavaScript
    * [Should I learn JavaScript?](http://shouldilearnjavascript.com) (not only jQuery!)
    * [Vanilla JS](http://vanilla-js.com)
-   * Live coding [Particles app](https://youtu.be/iedpl-T1lIo) (canvas animation)
-6. ECMAScript 2015
-   * Arrow functions
-   * Array helpers
-   * Spread operator
    * JavaScript classes
-7. Unit testing
+   * Live coding [Particles app](https://youtu.be/iedpl-T1lIo) (canvas animation)
+6. Unit testing
    * Setup
    * TDD
-8. AngularJS introduction
+7. AngularJS introduction
    * Live coding simple app
