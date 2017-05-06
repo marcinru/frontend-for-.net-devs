@@ -141,10 +141,10 @@
                     <video src="video/particles.mp4" autoplay loop controls>Particles</video>
                 </section>
                 <section>
-                    <pre><code>    describe('spnAcademy.getTopic(number)', function() {
+                    <pre><code>    describe('spnAcademy.getTopicOf(number)', () => {
         it('returns "TDD" for #5', function() {
-            expect(spnAcademy.getTopic(5)).toBe("TDD");
-        });
+            expect(spnAcademy.getTopicOf(5)).toBe("TDD");
+        }); // Test-driven development
     });</code></pre>
                     <img class="plain" src="img/redPill.png" alt="Unit Testing" width="650px">
                 </section>
@@ -158,8 +158,8 @@
                     </p>
                 </section>
                 <section>
-                    <h2>Set up tools for TDD</h2>
-                    <h3><a href="https://nodejs.org/en/">NodeJS</a></h3>
+                    <h3>Set up tools for TDD</h3>
+                    <h2 style="text-transform: none;"><a href="https://nodejs.org/en/">NodeJS</a></h2>
                     <img src="img/arnold-commando.gif" alt="Arnold Commando" class="plain">
                 </section>
                 <section>
@@ -175,11 +175,11 @@
                         <ol style="float: left; width: 56%;">
                             <li>node -v</li>
                             <li>npm -v</li>
-                            <li>npm init</li>
                             <li>npm install --global jasmine</li>
+                            <li>jasmine init</li>
                             <li>npm i jasmine-spec-reporter</li>
                             <li>add <a href="https://github.com/bcaudan/jasmine-spec-reporter/tree/master/examples/node">spec/helpers/reporter.js</a></li>
-                            <li>add test(-s) as *.spec.js files</li>
+                            <li>jasmine <em>(to run tests)</em></li>
                         </ol>
                     </div>
                 </section>
