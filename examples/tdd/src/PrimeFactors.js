@@ -1,12 +1,10 @@
 class PrimeFactors {
   static of(n) {
     let result = [];
-    if (n % 2 === 0) {
-      result.push(2);
-      n /= 2;
-    }
-    if (n > 1) {
-      result.push(n);
+    for (let divisor = 2; divisor <= n; divisor++) {
+      for (; n % divisor === 0; n /= divisor) {
+        result.push(divisor);
+      }
     }
     return result;
   }
