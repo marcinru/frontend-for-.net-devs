@@ -25,7 +25,8 @@ Front-end basics and most useful tips for .NET developers, testers and everyone 
    * JavaScript classes
    * Live coding [Particles app](https://youtu.be/iedpl-T1lIo) (canvas animation)
 6. Unit testing
-   * Setup
-   * TDD
-7. AngularJS introduction
-   * Live coding simple app
+   * Setup environment for testing
+   * TDD Live coding katas
+7. Angular
+   * AngularJS introduction
+   * Live coding sample app
