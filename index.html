@@ -213,7 +213,9 @@
                 </section>
                 <section>
                     <p>Two-way data binding &ndash; bananas in a box</p>
-                    <pre><code>      import { FormsModule } from '@angular/forms'
+                    <pre><code>      <input class="form-control" [(ngModel)]="someValue">
+      <output>{{ someValue }}</output>
+      import { FormsModule } from '@angular/forms'
       imports: [ BrowserModule, FormsModule ] //app.module.ts</code></pre>
                     <img src="img/two-way-data-binding-box-of-bananas-in-angular2.png" alt="Bananas in a box">
                 </section>
