@@ -200,10 +200,25 @@
                     </div>
                 </section>
                 <section>
-                    <ul>
+                    <ol>
                         <li>Classes & design patterns in JavaScript</li>
                         <li>Introduction to Angular 4 and TypeScript</li>
-                    </ul>
+                    </ol>
+                </section>
+                <section>
+                    <h3>ECMAScript 5 classes equivalent</h3>
+                    <pre><code>var Castle = function(name) {
+    this.name = name;
+    this.build = function() {
+        console.log(this.name)
+    }
+};
+
+var instance1 = new Castle("Winterfell");
+var instance2 = new Castle("Harrenhal");
+
+instance1.build();
+instance2.build();</code></pre>
                 </section>
                 <section>
                     <div style="text-align: left;">
