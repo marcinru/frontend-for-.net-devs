@@ -1,6 +1,5 @@
 # Front-end not only for .NET developers
 Front-end basics and most useful tips for .NET developers, testers and everyone interested in web technologies.
-
 1. Introduction
    * [Chrome DevTools](https://developer.chrome.com/devtools)
    * What [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) or text editor should I choose?
@@ -27,6 +26,5 @@ Front-end basics and most useful tips for .NET developers, testers and everyone 
 6. Unit testing
    * Setup environment for testing
    * TDD Live coding katas
-7. Angular
-   * AngularJS introduction
-   * Live coding sample app
+7. Classes and design patterns in JavaScript
+8. Introduction to Angular 4 and TypeScript
