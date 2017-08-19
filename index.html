@@ -202,7 +202,7 @@
                 <section>
                     <ol>
                         <li>Classes & design patterns in JavaScript</li>
-                        <li>Introduction to Angular 4 and TypeScript</li>
+                        <li>Introduction to Angular 4 &amp; TypeScript</li>
                     </ol>
                 </section>
                 <section>
@@ -217,8 +217,25 @@
 var instance1 = new Castle("Winterfell");
 var instance2 = new Castle("Harrenhal");
 
-instance1.build();
-instance2.build();</code></pre>
+instance1.build(); // Winterfell
+instance2.build(); // Harrenhal</code></pre>
+                </section>
+                <section>
+                    <h3>ECMAScript 2015 classes</h3>
+                    <pre><code>class Castle {
+    constructor(name) {
+        this.name = name;
+    }
+    build() {
+        console.log(this.name)
+    }
+}
+
+let instance1 = new Castle("Winterfell");
+let instance2 = new Castle("Harrenhal");
+
+instance1.build(); // Winterfell
+instance2.build(); // Harrenhal</code></pre>
                 </section>
                 <section>
                     <div style="text-align: left;">

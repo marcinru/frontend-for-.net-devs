@@ -61,7 +61,8 @@ body {
   font-size: 1.6em; }
 
 .reveal h3 {
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  text-transform: none; }
 
 .reveal h4 {
   font-size: 1em; }
