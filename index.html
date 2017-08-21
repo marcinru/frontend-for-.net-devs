@@ -219,7 +219,8 @@ var instance1 = new Castle("Winterfell");
 var instance2 = new Castle("Harrenhal");
 
 instance1.build(); // Winterfell
-instance2.build(); // Harrenhal</code></pre>
+instance2.build(); // Harrenhal
+                    </code></pre>
                 </section>
                 <section>
                     <h3>ECMAScript 2015 classes</h3>
@@ -231,7 +232,6 @@ instance2.build(); // Harrenhal</code></pre>
         console.log(this.name)
     }
 }
-
 let instance1 = new Castle("Winterfell");
 let instance2 = new Castle("Harrenhal");
 
@@ -246,6 +246,21 @@ instance2.build(); // Harrenhal</code></pre>
                         thus shielding particular parts from the global scope.&rdquo;</p>
                         <cite style="display: block; text-align: right;">&mdash; Addy Osmani</cite>
                     </blockquote>
+                </section>
+                <section>
+                    <h3>The Module Pattern in ES5</h3>
+                    <pre><code>var nameOfModule = ( function(module) {
+    module.method1 = function() {
+        console.log("method1 can use " + method2());
+    }
+    function method2() {
+        return 'private method2';
+    }
+    return module;
+} (nameOfModule || {}) );
+
+nameOfModule.method1(); //"method1 can use private method2"
+nameOfModule.method2(); // TypeError</code></pre>
                 </section>
                 <section>
                     <div style="text-align: left;">
