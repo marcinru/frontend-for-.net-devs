@@ -260,7 +260,12 @@ instance2.build(); // Harrenhal</code></pre>
 } (nameOfModule || {}) );
 
 nameOfModule.method1(); //"method1 can use private method2"
-nameOfModule.method2(); // TypeError</code></pre>
+nameOfModule.method2(); // TypeError
+method2(); //TypeError private method2 isn't available here</code></pre>
+                </section>
+                <section>
+                    <h3>CommonJS &amp; node_modules</h3>
+                    <p>Packages on the <u>npm</u> ("Node Package Manager") registry are in CommonJS format</p>
                 </section>
                 <section>
                     <div style="text-align: left;">
