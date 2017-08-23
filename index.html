@@ -345,31 +345,32 @@ method2(); //TypeError private method2 isn't available here</code></pre>
     }</code></pre>
                 </section>
                 <section>
-                    <p>Two-way data binding &ndash; bananas in a box</p>
-                    <pre><code>      &lt;input class="form-control" [(ngModel)]="someValue"&gt;
-      <output>{{ someValue }}</output>
-      import { FormsModule } from '@angular/forms'
-      imports: [ BrowserModule, FormsModule ] //app.module.ts</code></pre>
-                    <img src="img/two-way-data-binding-box-of-bananas-in-angular2.png" alt="Bananas in a box">
-                </section>
-                <section>
-                    <p>How to add Bootstrap CSS <u>properly</u></p>
-                    <pre><code>  npm install --save bootstrap // .angular-cli.json:
+                    <p style="margin-bottom: 12px;">How to add Bootstrap CSS <u>properly</u></p>
+                    <pre><code>  npm install bootstrap@4.0.0-beta --save
+  //.angular-cli.json:
   "styles": [
-      "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+      "../node_modules/bootstrap/dist/css/bootstrap.css"
   ]</code></pre>
                     <img src="img/that-would-be-great.jpg" width="350" alt="Bootstrap">
+                </section>
+                <section>
+                    <p>How to create custom Component <u>automatically</u></p>
+                    <pre><code>
+    ng generate component navbar
+                    </code></pre>
+                    <img src="img/magic.gif" alt="it's a magic!">
                 </section>
                 <section>
                     <p>How to create custom Component <u>manually</u></p>
                     <img src="img/addComponent.png" alt="new Component">
                 </section>
                 <section>
-                    <p>How to create custom Component <u>automatically</u></p>
-                    <pre><code>
-    ng generate component servers
-                    </code></pre>
-                    <img src="img/magic.gif" alt="it's a magic!">
+                    <p>Two-way data binding &ndash; bananas in a box</p>
+                    <pre><code>      &lt;input class="form-control" [(ngModel)]="someValue"&gt;
+      <output>{{ someValue }}</output>
+      import { FormsModule } from '@angular/forms'
+      imports: [ BrowserModule, FormsModule ] //app.module.ts</code></pre>
+                    <img src="img/two-way-data-binding-box-of-bananas-in-angular2.png" alt="Bananas in a box">
                 </section>
             </div>
         </div>
