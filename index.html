@@ -201,8 +201,8 @@
                 </section>
                 <section>
                     <ol>
-                        <li>Classes & design patterns in JavaScript</li>
-                        <li>Introduction to Angular 4 &amp; TypeScript</li>
+                        <li>class and module pattern in JavaScript</li>
+                        <li>introduction to Angular(4) &amp; TypeScript</li>
                     </ol>
                     <img style="display: inline-block; width: 50%; margin-top: 1em;" src="img/GoT_castle.jpg" alt="">
                 </section>
@@ -264,8 +264,26 @@ nameOfModule.method2(); // TypeError
 method2(); //TypeError private method2 isn't available here</code></pre>
                 </section>
                 <section>
-                    <h3>CommonJS &amp; node_modules</h3>
-                    <p>Packages on the <u>npm</u> ("Node Package Manager") registry are in CommonJS format</p>
+                    <h3>ECMAScript 2015 modules</h3>
+                    <blockquote>
+                        <b>Note:</b> This feature is only beginning to be implemented in browsers natively at this time.
+                        It is implemented in many transpilers, such as the Traceur Compiler, Babel, Rollup, and Webpack.
+                    </blockquote>
+                </section>
+                <section>
+                    <h3>ES6 modules example</h3>
+                    <pre><code>// --nameOfModule.js--
+function method2() {
+    return 'private method2';
+}
+export function method1() {
+    console.log("method1 can use " + method2());
+}
+
+// --main.js--
+import { method1 } from 'nameOfModule';
+method1(); //"method1 can use private method2"
+method2(); //TypeError private method2 isn't available here</code></pre>
                 </section>
                 <section>
                     <div style="text-align: left;">
@@ -294,6 +312,10 @@ method2(); //TypeError private method2 isn't available here</code></pre>
                         => user variables => path => edit<br>
                         Click OK and reopen cmd window.
                     </blockquote>
+                </section>
+                <section>
+                    <p>How an Angular App gets<br>Loaded and Started</p>
+                    <img src="img/ngFlow.png" alt="Startup process">
                 </section>
                 <section>
                     <p><a href="https://www.typescriptlang.org">TypeScript</a></p>
@@ -332,10 +354,6 @@ method2(); //TypeError private method2 isn't available here</code></pre>
       "../node_modules/bootstrap/dist/css/bootstrap.min.css"
   ]</code></pre>
                     <img src="img/that-would-be-great.jpg" width="350" alt="Bootstrap">
-                </section>
-                <section>
-                    <p>How an Angular App gets<br>Loaded and Started</p>
-                    <img src="img/ngFlow.png" alt="Startup process">
                 </section>
                 <section>
                     <p>How to create custom Component <u>manually</u></p>
