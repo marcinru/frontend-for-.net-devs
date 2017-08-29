@@ -26,5 +26,5 @@ Front-end basics and most useful tips for .NET developers, testers and everyone 
 6. Unit testing
    * Setup environment for testing
    * TDD Live coding katas
-7. Classes and design patterns in JavaScript
-8. Introduction to Angular 4 and TypeScript
+7. class and module pattern in JavaScript
+8. introduction to Angular(4) & TypeScript
