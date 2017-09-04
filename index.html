@@ -394,12 +394,25 @@ method2(); //TypeError private method2 isn't available here</code></pre>
     }</code></pre>
                 </section>
                 <section>
-                    <h3>TypeScript Constructor Assignment</h3>
-                    <p>public and private Keywords</p>
-                    <pre><code>
-  export class Ingredient {
-    constructor(public name: string, public amount: number)
+                    <p>TypeScript Constructor Assignment</p>
+                    <pre><code>  export class Ingredient {
+    constructor(public name: string, public amount: number) {}
   }
+  //above and below codes do the same
+
+  export class Ingredient {
+    public name: string;
+    public amount: number;
+
+    constructor(name: string, amount: number) {
+      this.name = name;
+      this.amount = amount;
+    }
+  }</code></pre>
+                </section>
+                <section>
+                                        <pre><code>
+
                     </code></pre>
                 </section>
                 <section>
